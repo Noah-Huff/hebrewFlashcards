@@ -1,0 +1,26 @@
+{
+  "name": "hebrewflashcards",
+  "version": "1.0.0",
+  "description": "Flashcards for a Biblical Hebrew vocabulary",
+  "main": "server.js",
+  "scripts": {
+    "back": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noah-Huff/hebrewFlashcards.git"
+  },
+  "author": "Noah Huff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noah-Huff/hebrewFlashcards/issues"
+  },
+  "homepage": "https://github.com/Noah-Huff/hebrewFlashcards#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "pg": "^8.7.1"
+  }
+}
